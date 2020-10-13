@@ -1,0 +1,56 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="swype_item_horizontal_margin">16dp</dimen>
+    <dimen name="swype_item_vertical_margin">20dp</dimen>
+    <dimen name="training_vertical_margin">10dp</dimen>
+    <dimen name="training_horizontal_margin">10dp</dimen>
+    <dimen name="training_vertival_margin2">3dp</dimen>
+    <dimen name="training_horizontal_margin2">3dp</dimen>
+
+    <!--
+         Per the design guidelines, navigation drawers should be between 240dp and 320dp:
+         https://developer.android.com/design/patterns/navigation-drawer.html
+    -->
+    <dimen name="navigation_drawer_width">240dp</dimen>
+    <dimen name="image_add_size">50dp</dimen>
+
+    <dimen name="swype_item_textSize">18sp</dimen>
+    <dimen name="edit_textSize">18sp</dimen>
+    <dimen name="exercise_textSize">18sp</dimen>
+    <dimen name="exercise_large_textSize">22sp</dimen>
+    <dimen name="exercise_very_large_textSize">24sp</dimen>
+    <dimen name="exercise_small_textSize">14sp</dimen>
+
+    <!-- ring -->
+    <dimen name="ring_inner_radius">90dp</dimen>
+    <dimen name="ring_thickness">4dp</dimen>
+    <dimen name="ring_width">200dp</dimen>
+    <dimen name="ring_height">200dp</dimen>
+
+    <dimen name="pointer_radius">10dp</dimen>
+    <dimen name="zero_dp">0dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <!-- shadow -->
+    <dimen name="vertical_transparent_strip_weight">10dp</dimen>
+    <dimen name="horizontal_transparent_strip_height">10dp</dimen>
+    <dimen name="appbar_padding_top">8dp</dimen>
+
+    <!-- appbar -->
+    <dimen name="appbar_tabLayout_height">48dp</dimen>
+
+    <!-- exercise item list -->
+    <dimen name="exercise_line_height">56dp</dimen>
+    <dimen name="exercise_vertical_margin">3dp</dimen>
+    <dimen name="exercise_horizontal_margin">3dp</dimen>
+    <dimen name="exercise_number_height">40dp</dimen>
+    <dimen name="exercise_number_width">40dp</dimen>
+    <dimen name="exercise_height">40dp</dimen>
+
+    <!-- training -->
+    <dimen name="training_stripe_height">2dp</dimen>
+
+</resources>

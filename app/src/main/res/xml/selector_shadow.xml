@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+ 
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Цвет выбранного таба -->
+    <item android:state_selected="true" android:color="#000000" />
+ 
+    <!-- цвет, в спокойном состоянии -->
+    <item android:color="#ffffff" />
+</selector>

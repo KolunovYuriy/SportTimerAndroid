@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_stripe"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/exercise_line_height"
+    android:orientation="horizontal"
+    android:paddingBottom="@dimen/exercise_vertical_margin"
+    android:paddingLeft="@dimen/exercise_horizontal_margin"
+    android:paddingRight="@dimen/exercise_horizontal_margin"
+    android:paddingTop="@dimen/exercise_vertical_margin"
+    android:background="@android:color/transparent"
+    >
+
+    <RelativeLayout
+
+        android:layout_width="@dimen/exercise_number_width"
+        android:layout_height="match_parent"
+        android:paddingRight="@dimen/zero_dp"
+        android:paddingLeft="@dimen/zero_dp"
+        >
+
+        <TextView
+            android:id="@+id/number"
+            style="@style/TextStyleExerciseNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:text="1" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        >
+
+
+        <TextView
+            android:id="@+id/item_name"
+            style="@style/TextStyleExercise"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:text="2" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="right|top"
+        >
+
+        <TextView
+            android:id="@+id/time"
+            style="@style/TextStyleExerciseTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right|top"
+            android:layout_centerVertical="true"
+            android:text="3"
+            />
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}"
+    android:background="@color/white_color" >
+
+    <LinearLayout            
+	   	 	android:layout_width="match_parent"
+	    	android:layout_height="match_parent"
+		    android:orientation="vertical"
+	   		>
+	            
+	    <LinearLayout
+	        android:id="@+id/topMenuLayout"
+	        android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:orientation="horizontal"
+		    android:layout_weight="10"
+	 	    >
+	 	    
+	        <RelativeLayout
+	 	        android:id="@+id/imageAddItem"
+	 	        android:layout_width="match_parent"
+		    	android:layout_height="match_parent"
+		    	android:layout_weight="1"
+		    	android:paddingBottom="@dimen/training_vertical_margin"
+				android:paddingTop="@dimen/training_vertical_margin"
+				android:background="@color/white_color"
+	 	        >
+	 	        
+				<ImageView
+				    android:tag="buttonImageView"
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    android:layout_centerHorizontal="true"
+				    android:layout_centerVertical="true"
+				    android:src="@drawable/ic_action_newcoaching_pressed" />
+	 	        
+	 	    </RelativeLayout>
+	 	    
+	        <TextView
+		        android:layout_width="1dp"
+		        android:layout_height="match_parent"
+		        android:background="@color/grey_custom_color"
+		        android:layout_marginTop="@dimen/training_vertical_margin"
+				android:layout_marginBottom="@dimen/training_vertical_margin"
+		         />
+	        
+	 	    <RelativeLayout
+	 	        android:id="@+id/imageTabUp"
+	 	        android:layout_width="match_parent"
+		    	android:layout_height="match_parent"
+		    	android:layout_weight="1"
+		    	android:paddingBottom="@dimen/training_vertical_margin"
+				android:paddingTop="@dimen/training_vertical_margin"
+				android:background="@color/white_color"
+	 	        >
+	 	        
+				<ImageView
+				    android:tag="buttonImageView"
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    android:layout_centerHorizontal="true"
+				    android:layout_centerVertical="true"
+				    android:src="@drawable/ic_tab_up" />
+	 	        
+	 	    </RelativeLayout>
+	 	        	 	    
+	 	    <TextView
+		        android:layout_width="1dp"
+		        android:layout_height="match_parent"
+		        android:background="@color/grey_custom_color"
+		        android:layout_marginTop="@dimen/training_vertical_margin"
+				android:layout_marginBottom="@dimen/training_vertical_margin"
+		         />
+	 	    
+	 	    <RelativeLayout
+	 	        android:id="@+id/imageTabDown"
+	 	        android:layout_width="match_parent"
+		    	android:layout_height="match_parent"
+		    	android:layout_weight="1"
+		    	android:paddingBottom="@dimen/training_vertical_margin"
+				android:paddingTop="@dimen/training_vertical_margin"				 	       
+	 	        >
+		 	    <ImageView			    		   
+		 	        android:tag="buttonImageView"
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"			    
+				    android:layout_centerHorizontal="true"
+				    android:layout_centerVertical="true"
+				    android:src="@drawable/ic_tab_down"
+				/>
+		 	</RelativeLayout>
+		 	
+		 	<TextView
+		        android:layout_width="1dp"
+		        android:layout_height="match_parent"
+		        android:background="@color/grey_custom_color"
+		        android:layout_marginTop="@dimen/training_vertical_margin"
+				android:layout_marginBottom="@dimen/training_vertical_margin"
+		         />
+	 	    
+	 	    <RelativeLayout
+	 	        android:id="@+id/imageTabCopy"
+	 	        android:layout_width="match_parent"
+		    	android:layout_height="match_parent"
+		    	android:layout_weight="1"
+		    	android:paddingBottom="@dimen/training_vertical_margin"
+				android:paddingTop="@dimen/training_vertical_margin"				 	       
+	 	        >
+		 	    <ImageView
+		 	        android:tag="buttonImageView"
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"			    
+				    android:layout_centerHorizontal="true"
+				    android:layout_centerVertical="true"
+				    android:src="@drawable/ic_tab_copy"
+				/>
+		 	</RelativeLayout>
+		 	
+	 	    <TextView
+		        android:layout_width="1dp"
+		        android:layout_height="match_parent"
+		        android:background="@color/grey_custom_color"
+		        android:layout_marginTop="@dimen/training_vertical_margin"
+				android:layout_marginBottom="@dimen/training_vertical_margin"
+		         />
+	 	    
+	 	    <RelativeLayout
+	 	        android:id="@+id/imageTabDelete"
+	 	        android:layout_width="match_parent"
+		    	android:layout_height="match_parent"
+		    	android:layout_weight="1"
+		    	android:paddingBottom="@dimen/training_vertical_margin"
+				android:paddingTop="@dimen/training_vertical_margin"				 	       
+	 	        >
+		 	    <ImageView		
+		 	        android:tag="buttonImageView"	    		   
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"			    
+				    android:layout_centerHorizontal="true"
+				    android:layout_centerVertical="true"
+				    android:src="@drawable/ic_tab_delete"
+				/>
+		 	</RelativeLayout>
+	 	</LinearLayout>
+	 	
+	    <RelativeLayout
+	   	 	android:layout_width="match_parent"
+	    	android:layout_height="match_parent"    
+		    android:orientation="vertical"
+	   		android:layout_weight="2">
+	    
+	        <RelativeLayout
+		   	 	android:layout_width="match_parent"
+		    	android:layout_height="match_parent"
+			    android:orientation="vertical"
+		   		>
+		   		
+			    <ListView 
+		            android:id="@+id/myTrainingList"
+			    	android:layout_width="match_parent"
+			    	android:layout_height="match_parent"
+			    	android:choiceMode="none"			    				    	
+			    	android:listSelector="@color/white_color"
+			    	android:scrollbarStyle="outsideOverlay"
+			    	android:cacheColorHint="@color/white_color"
+			    	android:dividerHeight="0dp"
+			    	android:divider="@color/white_color"
+			     />
+			</RelativeLayout>
+	        
+		    <TextView
+		        android:id="@+id/imageHorizontalTransparentStrip"
+		        android:layout_width="match_parent"
+		        android:layout_height="@dimen/horizontal_transparent_strip_height"
+		        android:layout_weight="1"
+		        android:background="@drawable/drawer_shadow_b" />
+		    
+	    	<RelativeLayout
+   	                android:layout_width="wrap_content"
+   	                android:layout_height="match_parent"
+   	                android:gravity="bottom"
+   	                android:layout_gravity="bottom|center" >
+
+			    <TextView
+				        android:id="@+id/imageHorizontalTransparentStripBottom"
+				        android:layout_width="match_parent"
+				        android:layout_height="@dimen/horizontal_transparent_strip_height"
+				        android:layout_weight="1"
+				        android:background="@drawable/drawer_shadow_t" />
+				
+			    <!-- 
+			    <ImageView
+			        android:id="@+id/imageAddItem"
+			        android:layout_width="@dimen/image_add_size"
+			        android:layout_height="@dimen/image_add_size"
+			        android:layout_above="@+id/imageVerticalTransparentStripBottom"
+			        android:layout_alignParentRight="true"
+			        android:layout_marginBottom="@dimen/training_vertical_margin"
+			        android:layout_marginRight="@dimen/training_vertical_margin"
+			        android:src="@drawable/ic_action_newcoaching_pressed" />
+			     -->
+
+			</RelativeLayout>
+			
+	    </RelativeLayout>
+	    <LinearLayout
+	        android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:orientation="horizontal"
+		    android:layout_weight="10"
+	 	    >
+	    	<RelativeLayout
+	 	        android:id="@+id/buttonCancel"
+	 	        android:layout_width="match_parent"
+		    	android:layout_height="match_parent"
+		    	android:layout_weight="1"
+		    	android:paddingBottom="@dimen/training_vertical_margin"
+				android:paddingTop="@dimen/training_vertical_margin"				 	       
+	 	        >
+		 	    <TextView
+		 	        android:tag="buttonImageView"		    
+				    android:layout_width="wrap_content"
+				    android:layout_height="match_parent"			    
+				    android:layout_centerHorizontal="true"
+				    android:layout_centerVertical="true"
+				    android:gravity="center"
+				    android:text="@string/cancel_text"
+				    android:textColor="@color/blue_custom_color"
+				    android:textSize="@dimen/edit_textSize"
+					/>
+		 	</RelativeLayout>
+			<TextView
+		        android:layout_width="1dp"
+		        android:layout_height="match_parent"
+		        android:background="@color/grey_custom_color"
+		         />
+			<RelativeLayout
+	 	        android:id="@+id/buttonOK"
+	 	        android:layout_width="match_parent"
+		    	android:layout_height="match_parent"
+		    	android:layout_weight="1"
+		    	android:paddingBottom="@dimen/training_vertical_margin"
+				android:paddingTop="@dimen/training_vertical_margin"				 	       
+	 	        >
+		 	    <TextView		 	        
+		 	        android:tag="buttonImageView"
+		 	        android:layout_width="wrap_content"
+		 	        android:layout_height="match_parent"
+		 	        android:layout_centerHorizontal="true"
+				    android:layout_centerVertical="true"
+				    android:gravity="center"
+		 	        android:text="@string/ok_text"
+		 	        android:textColor="@color/blue_custom_color"
+		 	        android:textSize="@dimen/edit_textSize"
+		 	         />
+		 	 </RelativeLayout>
+	 	    			
+	 	</LinearLayout>
+
+	</LinearLayout>
+	    
+</RelativeLayout>

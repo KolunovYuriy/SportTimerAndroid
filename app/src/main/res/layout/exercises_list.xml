@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/exercisesList"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"	
+     >
+
+	<include layout="@layout/toolbar" />
+
+    <ListView 
+        android:id="@+id/myTrainingList"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:choiceMode="none"	    
+	    android:listSelector="@color/white_color"
+	    android:cacheColorHint="@color/grey_custom_color"
+	    android:dividerHeight="0dp"
+	    android:divider="@color/white_color"
+	     />
+
+	<FrameLayout
+		android:visibility="visible"
+		android:id="@+id/vertical_shadow"
+		android:layout_weight="1"
+		android:layout_width="@dimen/vertical_transparent_strip_weight"
+		android:layout_height="match_parent"
+		android:gravity="right"
+		android:layout_alignParentTop="true"
+		android:layout_alignParentEnd="true"
+		>
+		<TextView
+			android:id="@+id/verticalTransparentStrip"
+			android:layout_width="@dimen/vertical_transparent_strip_weight"
+			android:layout_height="match_parent"
+			android:background="@drawable/drawer_shadow_l"
+			/>
+	</FrameLayout>
+
+	<FrameLayout
+		android:visibility="visible"
+		android:id="@+id/horizontal_shadow"
+		android:layout_weight="1"
+		android:layout_width="match_parent"
+		android:layout_height="@dimen/horizontal_transparent_strip_height"
+		android:gravity="top"
+		android:layout_alignParentTop="true"
+		android:layout_alignParentEnd="true"
+		>
+		<TextView
+			android:id="@+id/horizontalTransparentStrip"
+			android:layout_width="match_parent"
+			android:layout_height="@dimen/horizontal_transparent_strip_height"
+			android:background="@drawable/drawer_shadow_b"
+			/>
+	</FrameLayout>
+
+    <!-- 
+		android:divider="@color/grey_line"
+	    android:dividerHeight="1dp"    
+     -->
+     
+</RelativeLayout>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="title_section_my_exercise">Упражнения</string>
+    <string name="title_section_training_set">Тренировки</string>
+    <string name="title_section_schedule">Расписание</string>
+    <string name="title_sport_map">Карта</string>
+    <string name="title_section_settings">Настройки</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="title_activity_load_page_sport_timer">Спортивный таймер</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="press_twice">Нажмите еще раз, чтобы закрыть приложение</string>
+    
+    <!-- Action Bar -->
+    <string name="action_edit">Режим редактирования</string>
+    <string name="action_add">Добавить элемент</string>
+    <string name="action_refresh">Обновить</string>
+    
+    <!-- exercise adapter -->
+    <string name="step">этап(а/ов)</string>
+
+    <!-- training adapter -->
+    <string name="exercise_step">упражнений</string>
+    
+    <!-- screen_add_exercise -->
+    <string name="create_your_training">Создай свою тренировку</string>    
+
+    <string name="app_name">Спортивная Сеть</string>
+    <string name="action_settings">Настройки</string>
+    <string name="start_button">Старт</string>
+    <string name="stop_button">Стоп</string>
+    <string name="exercise_is_not_set">Exercise has not been set</string>
+    <string name="null_time">00:00:00.000</string>
+    <string name="null_time_small">00:00:00</string>
+    <string name="current_exercise">Current exercise</string>
+    <string name="choose_training_exercise">Choose training exercise</string>
+    <string name="training_exercise">Training exercise</string>
+    <string name="repeat_button">Repeat training</string>       
+    <string name="title_activity_preference">PreferenceActivity</string>
+
+    <!-- TrainingExerciseActivity -->
+    <string name="add_training_exercise">Add new training exercise</string>
+    <string name="update_exercise">Редактировать</string>
+    <string name="exit">Выход</string>
+    <string name="choose_exercise">Выбрать</string>
+    <string name="copy_exercise">Копировать</string>
+    <string name="delete_exercise">Удалить</string>
+    <string name="rename_exercise">Переименовать</string>
+    
+    <!-- ExerciseSettingsActivity -->
+    <string name="add_exercise">Add a new exercise</string>
+
+    <!-- Dialogs -->
+    <string name="yes_text">Yes</string>
+    <string name="no_text">No</string>
+    <string name="ok_text">OK</string>
+    <string name="save_text">Save</string>
+    <string name="edit_text">Edit</string>
+    <string name="cancel_text">Cancel</string>
+    <string name="write_exercise_name">Exercise name:</string>
+    <string name="write_item_name">Item name:</string>    
+    <string name="hint_write_exercise_name">Write name of exercise</string>
+    <string name="hint_write_item_name">Write name of item</string>
+    <string name="set_the_time">Set the time</string>
+    <string name="delete_element">Удалить элемент(ы)?</string>
+    <string name="HH">HH</string>
+    <string name="MM">MM</string>
+    <string name="SS">SS</string>    
+    
+    <!-- For Preferences -->
+    
+    <string name="notification_mode">Notification mode preferences</string>
+    <string name="is_sound_notification">Звуковой сигнал</string>
+    <string name="detail_pref_sound_notification">Для включения звукового оповещения</string>
+    <string name="is_vibrate_notification">Вибросигнал</string>
+    <string name="detail_pref_vibrate_notification">Для включения випросигнала</string>
+    
+    <string name="time_mode">Time mode preferences</string>
+    <string name="give_notice_time">Время сигнала к окончанию</string>
+    <string name="detail_pref_give_notice_time">Время до окончания тренеровочной сессии, когда будет запущено уведомление (в секундах)</string>
+    <string name="id_of_current_exercise">Id of current exercise</string>
+    <string name="title_activity_training_exercise">TrainingExerciseActivity</string>
+    <string name="title_activity_exercise_settings">ExerciseSettingsActivity</string>
+
+    <!-- Trainings -->
+
+    <string name="trainings_my_list">Мой список</string>
+    <string name="trainings_store">Магазин</string>
+    <string name="trainings_today">Сегодня</string>
+
+    <!-- Drawer --> 
+    <string-array name="planets_array">
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+        <item>Saturn</item>
+        <item>Uranus</item>
+        <item>Neptune</item>
+    </string-array>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>    
+
+</resources>

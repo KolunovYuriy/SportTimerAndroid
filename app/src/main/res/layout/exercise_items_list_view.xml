@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+	android:id="@+id/item_stripe"
+	xmlns:android="http://schemas.android.com/apk/res/android"	
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:paddingTop="@dimen/training_vertical_margin"
+	android:textAppearance="?android:attr/textAppearanceListItemSmall"
+    android:background="?android:attr/activatedBackgroundIndicator"
+	android:minHeight="?android:attr/listPreferredItemHeightSmall"
+	>
+
+	<include layout="@layout/exercise_items_view" />
+	
+</LinearLayout>

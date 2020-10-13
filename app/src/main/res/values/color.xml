@@ -1,0 +1,25 @@
+
+    <resources>
+        <!-- white -->
+        <color name="white_color">#ffffff</color>
+        <!-- black -->
+        <color name="black_color">#000000</color>
+        <color name="black_87">#de000000</color>
+        <!-- grey -->
+        <color name="grey_custom_color">#c2c9ce</color>
+        <color name="grey_custom_medium_color">#dfdfdf</color>
+        <color name="grey_custom_poor_color">#eaeaea</color>
+        <color name="warm_grey">#979797</color>
+        <!-- blue -->
+        <color name="blue_custom_color">#354b5e</color>
+        <color name="blue_custom_poor_color">#4a5d6e</color>
+        <!-- red -->
+        <color name="red_color">#ff0000</color>
+        <color name="red_custom_color">#d74b4b</color>
+        <color name="red_custom_poor_color">#a74b51</color>
+        <color name="red_custom_bright_color">#ff0000</color>
+        <!-- toolbar -->
+        <color name="colorPrimary">#3F51B5</color>
+        <color name="colorPrimaryDark">#303F9F</color>
+        <color name="colorAccent">#FF4081</color>
+    </resources>
