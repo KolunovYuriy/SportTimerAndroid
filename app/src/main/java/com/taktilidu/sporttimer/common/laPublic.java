@@ -44,7 +44,7 @@ public class laPublic {
 
 	//Раскрасить Title
 	public static void paintTitle(Context c){
-		ActionBar AB = ((Activity) c).getActionBar();
+		ActionBar AB = ((Activity) c).getActionBar(); // Cryptic Code //TODO: -> making sense name
 		Activity A = (Activity) c;
 		//AB.setBackgroundDrawable(A.getResources().getDrawable(R.drawable.titlebackgroundcolor));
 		//AB.setCustomView(R.layout.fragment_navigation_drawer);
@@ -71,7 +71,7 @@ public class laPublic {
 
 	//Time Format for application//
 	private static String TimeFormat(long t, String format) {
-		SimpleDateFormat sdf = new SimpleDateFormat(format, Locale.US);
+		SimpleDateFormat sdf = new SimpleDateFormat(format, Locale.US); // Cryptic Code //TODO: -> making sense name
 		sdf.setTimeZone(TimeZone.getTimeZone("UTC"));
 		return sdf.format(new Date(t));
 	}

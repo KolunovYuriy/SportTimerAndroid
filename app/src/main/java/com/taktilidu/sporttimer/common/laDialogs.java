@@ -152,7 +152,7 @@ public class laDialogs {
 				view.dispatchTouchEvent(MotionEvent.obtain(SystemClock.uptimeMillis(), SystemClock.uptimeMillis(), MotionEvent.ACTION_DOWN, 0, 0, 0));
 				view.dispatchTouchEvent(MotionEvent.obtain(SystemClock.uptimeMillis(), SystemClock.uptimeMillis(), MotionEvent.ACTION_UP, 0, 0, 0));
 			}
-		}, 200);
+		}, 200); // Magic Number // TODO: Move to constans
 	}
 	public static void hideSoftKeyboardOnView(View view) {
 		InputMethodManager imm = (InputMethodManager) view.getContext().getSystemService(Context.INPUT_METHOD_SERVICE);
