@@ -18,7 +18,7 @@ import android.database.sqlite.SQLiteDatabase.CursorFactory;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.provider.BaseColumns;
 
-public class DB {
+public class DB { //God object //TODO: разделить на классы: 1.по-человечески реализующие Data Mapper дял каждой сущности; 2.производящий обновление БД; 3.Singleton для работы с БД
 
 	//Constants
 	private static final String DB_NAME = "TimerExercises.db";
